@@ -3,7 +3,12 @@
 
 /* Universal styles */
 body {
-  font-family: ''
+  font-family: 'Helvetica';
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
 }
 
 .image-content {
@@ -12,23 +17,32 @@ body {
 
 /* Header */
 header {
-
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
 }
 
 .logo {
-
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 100%;
 }
 
-.logo img {
-
+.logo img{
+  height: 50px;
 }
 
-header nav {
-
+header nav{
+  display: flex;
+  justify-content: flex-end;
 }
 
-nav span {
-
+nav span{
+  padding: 15px;
+  color: white;
 }
 
 /* All content */
